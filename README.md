@@ -7,10 +7,11 @@ Install
 -------
 
 Before you run this script, you need compilers like GCC, LLVM, and Clang.
-*NOTE from rargulati: If you haven't installed X11 (window system) as part of your normal 10.5/10.6 installation,
-install it from the OS disk. Installation instructions are available online. IF, like me, you 
+
+*NOTE from rargulati: If you haven't installed X11 (window system) as part of your normal 10.5/10.6 installation, install it from the OS disk. Installation instructions are available online. IF, like me, you 
 do not have the disk, it's easier to download and install all 3 of Xcode, Xquartz, and the gcc tools
 so that they will play nice. 
+
 Get them via [OS X GCC Installer](https://github.com/kennethreitz/osx-gcc-installer/)
 if you're on Snow Leopard (OS X 10.6) or
 [Command Line Tools for XCode](https://developer.apple.com/downloads/index.action)
