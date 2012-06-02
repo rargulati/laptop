@@ -7,7 +7,10 @@ Install
 -------
 
 Before you run this script, you need compilers like GCC, LLVM, and Clang.
-
+*NOTE from rargulati: If you haven't installed X11 (window system) as part of your normal 10.5/10.6 installation,
+install it from the OS disk. Installation instructions are available online. IF, like me, you 
+do not have the disk, it's easier to download and install all 3 of Xcode, Xquartz, and the gcc tools
+so that they will play nice. 
 Get them via [OS X GCC Installer](https://github.com/kennethreitz/osx-gcc-installer/)
 if you're on Snow Leopard (OS X 10.6) or
 [Command Line Tools for XCode](https://developer.apple.com/downloads/index.action)
@@ -19,6 +22,9 @@ Run the script:
 
 What it sets up
 ---------------
+*NOTE: this is a fork of the original. Where the original preferred rvm, I've
+decided to go with rbenv + ruby_build. Some pieces of this installation still
+do not work for all builds (bash v zsh, imagemagick is not playing nice; will fix soon)
 
 * SSH public key (for authenticating with services like Github and Heroku)
 * Homebrew (for managing operating system libraries)
@@ -28,7 +34,7 @@ What it sets up
 * Postgres (for storing relational data)
 * Redis (for storing key-value data)
 * ImageMagick (for cropping and resizing images)
-* RVM (for managing versions of the Ruby programming language)
+* Ruby Build and RBenv (for managing ruby environments)
 * Ruby language (for writing general-purpose code)
 * Bundler gem (for managing Ruby libraries)
 * Rails gem (for writing web applications)
